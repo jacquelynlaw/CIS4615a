@@ -1,5 +1,3 @@
-
-
 /**
  * ERR00-J. Do not suppress or ignore checked exceptions
  * Exception is not propagated forward:
