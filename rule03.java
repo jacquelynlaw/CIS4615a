@@ -19,7 +19,7 @@ public class rule03 {
         outStream.close();
 
         DataInputStream inStream = new DataInputStream(new FileInputStream("rule03file.txt"));
-        // is.readInt() & 0xFFFFFFFFL; // Mask with 32 one-bits
+
         long valueA = getInteger(inStream);
         System.out.println("53420 = " + valueA);
 
@@ -27,6 +27,7 @@ public class rule03 {
     }
 
     public static long getInteger(DataInput inStream) throws IOException {
+        // Mask with 32 one-bits
         return inStream.readInt() & 0xFFFFFFFFL;
     }
 }
