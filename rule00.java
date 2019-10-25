@@ -1,6 +1,5 @@
 import java.util.Scanner;
-import java.lang.Object;
-import java.util.regex.Patter;
+import java.util.regex.Pattern;
 /**
  * Log injection vulnerability:
  *  Arises when log entry contains unsanitized user input
@@ -16,7 +15,7 @@ public class rule00 {
         System.out.print("Enter username: ");
         username = sc.nextLine();
 
-        System.out.println("Login successful for " + sanitizeUser(username));
+        System.out.println("Username entered: " + sanitizeUser(username));
         sc.close();
     }
 
