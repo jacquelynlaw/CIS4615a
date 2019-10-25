@@ -37,7 +37,6 @@ public class rule01 {
                     System.out.println("[" + filename + "] cannot be deleted for an indetermined reason.");
                 }
             } catch (SecurityException e) {
-                // System.out.println("We don't have file system access.");
                 System.err.println(e);
             }
         } else {
