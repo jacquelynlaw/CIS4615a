@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.IOException;
 /**
+ * XP00-J.  Do  not  ignore  values  returned  by  methods
  * Ignoring method return values:
  *  Methods can return values to communicate failure or success
  * Prevention:

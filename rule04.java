@@ -1,6 +1,7 @@
 import java.math.BigInteger;
 
 /**
+ * STR03-J. Do not encode noncharacter data as a string
  * Unspecified behavior and losing data:
  *  Arises when we encode noncharacter data as a string
  * Prevention:

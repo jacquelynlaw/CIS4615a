@@ -5,6 +5,7 @@ import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.FileInputStream;
 /**
+ * NUM03-J. Use integer types that can fully represent the possible range of unsigned data
  * Use integer types that can fully represent possible range of unsigned data:
  *  Sign and magnitude data can be misinterpreted
  * Prevention:

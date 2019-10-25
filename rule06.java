@@ -1,4 +1,5 @@
 /**
+ * MET01-J. Never use assertions to validate method arguments
  * Incorrect results:
  *  Arises we use assertions to validate method arguments
  * Prevention:

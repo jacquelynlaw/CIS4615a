@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.Pattern;
 /**
+ * IDS03-J. Do not log unsanitized user input
  * Log injection vulnerability:
  *  Arises when log entry contains unsanitized user input
  * Prevention:
